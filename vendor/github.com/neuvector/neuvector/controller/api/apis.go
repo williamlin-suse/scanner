@@ -2571,6 +2571,7 @@ type RESTAssetsScanReportQuery struct {
 	Cursor         RESTScanReportCursor         `json:"cursor"`             // last query stopped
 	ViewPod        *string                      `json:"view_pod,omitempty"` // for workloads only
 	VulScoreFilter *RESTVulScoreFilter          `json:"vul_score_filter,omitempty"`
+	SeverityFilter string                       `json:"severity_filter,omitempty"`
 	Filters        []RESTAssetsScanReportFilter `json:"filters,omitempty"`
 }
 
@@ -4202,11 +4203,13 @@ type VulQueryFilterViewModel struct {
 
 	ServiceName   string `json:"serviceName"`
 	ImageName     string `json:"imageName"`
+	ImageBaseOS   string `json:"imageBaseOS"`
 	NodeName      string `json:"nodeName"`
 	ContainerName string `json:"containerName"`
 
 	ServiceNameMatchType   string `json:"matchTypeService"`
 	ImageNameMatchType     string `json:"matchTypeImage"`
+	ImageBaseOSMatchType   string `json:"matchTypeImageBaseOS"`
 	NodeNameMatchType      string `json:"matchTypeNode"`
 	ContainerNameMatchType string `json:"matchTypeContainer"`
 
