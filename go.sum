@@ -202,8 +202,8 @@ github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee h1:W5t00kpgFd
 github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 h1:C3w9PqII01/Oq1c1nUAm88MOHcQC9l5mIlSMApZMrHA=
 github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822/go.mod h1:+n7T8mK8HuQTcFwEeznm/DIxMOiR9yIdICNftLE1DvQ=
-github.com/neuvector/neuvector v0.0.0-20260604164553-6d57a62d5d66 h1:MyrROK/lv8pRdLd0/IqQMhS1s0IQuUbq63RDpLV1tkc=
-github.com/neuvector/neuvector v0.0.0-20260604164553-6d57a62d5d66/go.mod h1:8Y6Uu+dYJqSiZlqIABPnlCr/N7KsoteyCm8URUKnZq4=
+github.com/neuvector/neuvector v0.0.0-20260606013239-058e7d4e5272 h1:QIelCXZXA1Cy9WhsD6kAc2pKhmsmXkwwwuKKxk8lZMA=
+github.com/neuvector/neuvector v0.0.0-20260606013239-058e7d4e5272/go.mod h1:8Y6Uu+dYJqSiZlqIABPnlCr/N7KsoteyCm8URUKnZq4=
 github.com/onsi/ginkgo/v2 v2.21.0 h1:7rg/4f3rB88pb5obDgNZrNHrQ4e6WpjonchcpuBRnZM=
 github.com/onsi/ginkgo/v2 v2.21.0/go.mod h1:7Du3c42kxCUegi0IImZ1wUQzMBVecgIHjR1C+NkhLQo=
 github.com/onsi/gomega v1.35.1 h1:Cwbd75ZBPxFSuZ6T+rN/WCb/gOc6YgFBXLlZLhC7Ds4=
